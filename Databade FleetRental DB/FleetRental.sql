@@ -133,4 +133,19 @@ CREATE TABLE [FleetRental].[dbo].[Feedback] (
 );
 GO
 
-select * from [User]
+Select *from [user]
+Select *from Car
+Select *from Reservation
+
+Delete from [User]
+where User_ID = 38
+
+Delete from Car
+where Car_ID =29
+
+SELECT COUNT(*) AS CarsCount FROM [dbo].[Car]
+
+SELECT COUNT(*) AS ReservationCount FROM [dbo].[Reservation]
+
+
+

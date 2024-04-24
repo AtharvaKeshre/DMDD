@@ -135,3 +135,13 @@ VALUES
     (8, 500.00, '2023-05-25 13:30:00', 'Debit', 'Success'),
     (9, 375.00, '2023-12-15 15:00:00', 'Cash', 'Success'),
     (10, 150.00, '2023-05-03 17:00:00', 'Credit', 'Success');
+
+-- Insert sample feedback data into Feedback table
+INSERT INTO [FleetRental].[dbo].[Feedback] (Car_ID, Customer_ID, Feedback_Date, Comments, Rating)
+VALUES 
+    (1, 1, '2024-04-23', 'Great car, smooth ride!', 5),
+    (2, 2, '2024-04-22', 'The car was clean and well-maintained.', 4),
+    (3, 3, '2024-04-21', 'Average experience, could have been better.', 3),
+    (4, 4, '2024-04-20', 'The car had some issues with the brakes.', 2),
+    (5, 5, '2024-04-19', 'Excellent service, will rent again.', 5);
+

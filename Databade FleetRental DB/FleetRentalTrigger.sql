@@ -39,7 +39,8 @@ SELECT * FROM Reservation
 
 INSERT INTO [FleetRental].[dbo].[Reservation] (Schedule_ID, Customer_ID, Insurance_ID, Pickup_Date, Return_Date, Cost)
 VALUES
-(6, 6, 2, '2023-11-05 08:00:00', '2023-11-08 08:00:00', 150.00); 
+(6, 6, 2, '2023-11-05 08:00:00', '2023-11-08 08:00:00', 150.00),
+(2, 2, 2, '2024-04-11 10:00:00', '2024-04-13 14:00:00', 200.00); 
 
 SELECT * FROM Reservation
 SELECT * FROM Car_Schedule
