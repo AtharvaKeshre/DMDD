@@ -133,3 +133,4 @@ CREATE TABLE [FleetRental].[dbo].[Feedback] (
 );
 GO
 
+select * from [User]

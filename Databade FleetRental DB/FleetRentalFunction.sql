@@ -1,4 +1,4 @@
-
+use FleetRental
 CREATE FUNCTION dbo.CalculateRentalCostAndDuration (
     @CarID INT,
     @StartDate DATETIME,
